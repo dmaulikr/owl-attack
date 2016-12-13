@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80BB2DE71DFFAC81003544AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DE61DFFAC81003544AB /* AppDelegate.swift */; };
+		80BB2DE91DFFAC81003544AB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DE81DFFAC81003544AB /* GameScene.sks */; };
+		80BB2DEB1DFFAC81003544AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DEA1DFFAC81003544AB /* Actions.sks */; };
+		80BB2DED1DFFAC81003544AB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DEC1DFFAC81003544AB /* GameScene.swift */; };
+		80BB2DEF1DFFAC81003544AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DEE1DFFAC81003544AB /* GameViewController.swift */; };
+		80BB2DF21DFFAC81003544AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DF01DFFAC81003544AB /* Main.storyboard */; };
+		80BB2DF41DFFAC81003544AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DF31DFFAC81003544AB /* Assets.xcassets */; };
+		80BB2DF71DFFAC81003544AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DF51DFFAC81003544AB /* LaunchScreen.storyboard */; };
+		80BB2E021DFFAC81003544AB /* OwlAttack2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E011DFFAC81003544AB /* OwlAttack2Tests.swift */; };
+		80BB2E0D1DFFAC81003544AB /* OwlAttack2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E0C1DFFAC81003544AB /* OwlAttack2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80BB2DFE1DFFAC81003544AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BB2DDB1DFFAC81003544AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BB2DE21DFFAC81003544AB;
+			remoteInfo = OwlAttack2;
+		};
+		80BB2E091DFFAC81003544AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80BB2DDB1DFFAC81003544AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80BB2DE21DFFAC81003544AB;
+			remoteInfo = OwlAttack2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80BB2DE31DFFAC81003544AB /* OwlAttack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlAttack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BB2DE61DFFAC81003544AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80BB2DE81DFFAC81003544AB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		80BB2DEA1DFFAC81003544AB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		80BB2DEC1DFFAC81003544AB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		80BB2DEE1DFFAC81003544AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		80BB2DF11DFFAC81003544AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80BB2DF31DFFAC81003544AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80BB2DF61DFFAC81003544AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80BB2DF81DFFAC81003544AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BB2DFD1DFFAC81003544AB /* OwlAttack2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlAttack2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BB2E011DFFAC81003544AB /* OwlAttack2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlAttack2Tests.swift; sourceTree = "<group>"; };
+		80BB2E031DFFAC81003544AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BB2E081DFFAC81003544AB /* OwlAttack2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlAttack2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80BB2E0C1DFFAC81003544AB /* OwlAttack2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlAttack2UITests.swift; sourceTree = "<group>"; };
+		80BB2E0E1DFFAC81003544AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80BB2DE01DFFAC81003544AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2DFA1DFFAC81003544AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2E051DFFAC81003544AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80BB2DDA1DFFAC81003544AB = {
+			isa = PBXGroup;
+			children = (
+				80BB2DE51DFFAC81003544AB /* OwlAttack2 */,
+				80BB2E001DFFAC81003544AB /* OwlAttack2Tests */,
+				80BB2E0B1DFFAC81003544AB /* OwlAttack2UITests */,
+				80BB2DE41DFFAC81003544AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80BB2DE41DFFAC81003544AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80BB2DE31DFFAC81003544AB /* OwlAttack2.app */,
+				80BB2DFD1DFFAC81003544AB /* OwlAttack2Tests.xctest */,
+				80BB2E081DFFAC81003544AB /* OwlAttack2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80BB2DE51DFFAC81003544AB /* OwlAttack2 */ = {
+			isa = PBXGroup;
+			children = (
+				80BB2DE61DFFAC81003544AB /* AppDelegate.swift */,
+				80BB2DE81DFFAC81003544AB /* GameScene.sks */,
+				80BB2DEA1DFFAC81003544AB /* Actions.sks */,
+				80BB2DEC1DFFAC81003544AB /* GameScene.swift */,
+				80BB2DEE1DFFAC81003544AB /* GameViewController.swift */,
+				80BB2DF01DFFAC81003544AB /* Main.storyboard */,
+				80BB2DF31DFFAC81003544AB /* Assets.xcassets */,
+				80BB2DF51DFFAC81003544AB /* LaunchScreen.storyboard */,
+				80BB2DF81DFFAC81003544AB /* Info.plist */,
+			);
+			path = OwlAttack2;
+			sourceTree = "<group>";
+		};
+		80BB2E001DFFAC81003544AB /* OwlAttack2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80BB2E011DFFAC81003544AB /* OwlAttack2Tests.swift */,
+				80BB2E031DFFAC81003544AB /* Info.plist */,
+			);
+			path = OwlAttack2Tests;
+			sourceTree = "<group>";
+		};
+		80BB2E0B1DFFAC81003544AB /* OwlAttack2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				80BB2E0C1DFFAC81003544AB /* OwlAttack2UITests.swift */,
+				80BB2E0E1DFFAC81003544AB /* Info.plist */,
+			);
+			path = OwlAttack2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80BB2DE21DFFAC81003544AB /* OwlAttack2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BB2E111DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2" */;
+			buildPhases = (
+				80BB2DDF1DFFAC81003544AB /* Sources */,
+				80BB2DE01DFFAC81003544AB /* Frameworks */,
+				80BB2DE11DFFAC81003544AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OwlAttack2;
+			productName = OwlAttack2;
+			productReference = 80BB2DE31DFFAC81003544AB /* OwlAttack2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80BB2DFC1DFFAC81003544AB /* OwlAttack2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BB2E141DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2Tests" */;
+			buildPhases = (
+				80BB2DF91DFFAC81003544AB /* Sources */,
+				80BB2DFA1DFFAC81003544AB /* Frameworks */,
+				80BB2DFB1DFFAC81003544AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BB2DFF1DFFAC81003544AB /* PBXTargetDependency */,
+			);
+			name = OwlAttack2Tests;
+			productName = OwlAttack2Tests;
+			productReference = 80BB2DFD1DFFAC81003544AB /* OwlAttack2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80BB2E071DFFAC81003544AB /* OwlAttack2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80BB2E171DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2UITests" */;
+			buildPhases = (
+				80BB2E041DFFAC81003544AB /* Sources */,
+				80BB2E051DFFAC81003544AB /* Frameworks */,
+				80BB2E061DFFAC81003544AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80BB2E0A1DFFAC81003544AB /* PBXTargetDependency */,
+			);
+			name = OwlAttack2UITests;
+			productName = OwlAttack2UITests;
+			productReference = 80BB2E081DFFAC81003544AB /* OwlAttack2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80BB2DDB1DFFAC81003544AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jason La";
+				TargetAttributes = {
+					80BB2DE21DFFAC81003544AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3C88TTWHMV;
+						ProvisioningStyle = Automatic;
+					};
+					80BB2DFC1DFFAC81003544AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3C88TTWHMV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80BB2DE21DFFAC81003544AB;
+					};
+					80BB2E071DFFAC81003544AB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3C88TTWHMV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80BB2DE21DFFAC81003544AB;
+					};
+				};
+			};
+			buildConfigurationList = 80BB2DDE1DFFAC81003544AB /* Build configuration list for PBXProject "OwlAttack2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80BB2DDA1DFFAC81003544AB;
+			productRefGroup = 80BB2DE41DFFAC81003544AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80BB2DE21DFFAC81003544AB /* OwlAttack2 */,
+				80BB2DFC1DFFAC81003544AB /* OwlAttack2Tests */,
+				80BB2E071DFFAC81003544AB /* OwlAttack2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80BB2DE11DFFAC81003544AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BB2DF21DFFAC81003544AB /* Main.storyboard in Resources */,
+				80BB2DE91DFFAC81003544AB /* GameScene.sks in Resources */,
+				80BB2DF41DFFAC81003544AB /* Assets.xcassets in Resources */,
+				80BB2DF71DFFAC81003544AB /* LaunchScreen.storyboard in Resources */,
+				80BB2DEB1DFFAC81003544AB /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2DFB1DFFAC81003544AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2E061DFFAC81003544AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80BB2DDF1DFFAC81003544AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BB2DED1DFFAC81003544AB /* GameScene.swift in Sources */,
+				80BB2DEF1DFFAC81003544AB /* GameViewController.swift in Sources */,
+				80BB2DE71DFFAC81003544AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2DF91DFFAC81003544AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BB2E021DFFAC81003544AB /* OwlAttack2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BB2E041DFFAC81003544AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80BB2E0D1DFFAC81003544AB /* OwlAttack2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80BB2DFF1DFFAC81003544AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BB2DE21DFFAC81003544AB /* OwlAttack2 */;
+			targetProxy = 80BB2DFE1DFFAC81003544AB /* PBXContainerItemProxy */;
+		};
+		80BB2E0A1DFFAC81003544AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80BB2DE21DFFAC81003544AB /* OwlAttack2 */;
+			targetProxy = 80BB2E091DFFAC81003544AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80BB2DF01DFFAC81003544AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80BB2DF11DFFAC81003544AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80BB2DF51DFFAC81003544AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80BB2DF61DFFAC81003544AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80BB2E0F1DFFAC81003544AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80BB2E101DFFAC81003544AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80BB2E121DFFAC81003544AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		80BB2E131DFFAC81003544AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		80BB2E151DFFAC81003544AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlAttack2.app/OwlAttack2";
+			};
+			name = Debug;
+		};
+		80BB2E161DFFAC81003544AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OwlAttack2.app/OwlAttack2";
+			};
+			name = Release;
+		};
+		80BB2E181DFFAC81003544AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlAttack2;
+			};
+			name = Debug;
+		};
+		80BB2E191DFFAC81003544AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3C88TTWHMV;
+				INFOPLIST_FILE = OwlAttack2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OwlAttack2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80BB2DDE1DFFAC81003544AB /* Build configuration list for PBXProject "OwlAttack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BB2E0F1DFFAC81003544AB /* Debug */,
+				80BB2E101DFFAC81003544AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80BB2E111DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BB2E121DFFAC81003544AB /* Debug */,
+				80BB2E131DFFAC81003544AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80BB2E141DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BB2E151DFFAC81003544AB /* Debug */,
+				80BB2E161DFFAC81003544AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80BB2E171DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80BB2E181DFFAC81003544AB /* Debug */,
+				80BB2E191DFFAC81003544AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80BB2DDB1DFFAC81003544AB /* Project object */;
+}
