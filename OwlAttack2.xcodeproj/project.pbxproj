@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8096F2971E03190000FF669A /* HelpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096F2961E03190000FF669A /* HelpScene.swift */; };
 		80BB2DE71DFFAC81003544AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DE61DFFAC81003544AB /* AppDelegate.swift */; };
 		80BB2DE91DFFAC81003544AB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DE81DFFAC81003544AB /* GameScene.sks */; };
-		80BB2DEB1DFFAC81003544AB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DEA1DFFAC81003544AB /* Actions.sks */; };
 		80BB2DED1DFFAC81003544AB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DEC1DFFAC81003544AB /* GameScene.swift */; };
 		80BB2DEF1DFFAC81003544AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2DEE1DFFAC81003544AB /* GameViewController.swift */; };
 		80BB2DF21DFFAC81003544AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DF01DFFAC81003544AB /* Main.storyboard */; };
@@ -17,6 +17,11 @@
 		80BB2DF71DFFAC81003544AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2DF51DFFAC81003544AB /* LaunchScreen.storyboard */; };
 		80BB2E021DFFAC81003544AB /* OwlAttack2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E011DFFAC81003544AB /* OwlAttack2Tests.swift */; };
 		80BB2E0D1DFFAC81003544AB /* OwlAttack2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E0C1DFFAC81003544AB /* OwlAttack2UITests.swift */; };
+		80BB2E1B1DFFAF99003544AB /* OwlSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E1A1DFFAF99003544AB /* OwlSlot.swift */; };
+		80BB2E1D1E008C4A003544AB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E1C1E008C4A003544AB /* Utils.swift */; };
+		80BB2E211E00B2C1003544AB /* screech.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80BB2E201E00B2C1003544AB /* screech.wav */; };
+		80BB2E291E00D5BA003544AB /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E281E00D5BA003544AB /* MainMenuScene.swift */; };
+		80BB2E2D1E00DD98003544AB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BB2E2C1E00DD98003544AB /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8096F2961E03190000FF669A /* HelpScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpScene.swift; sourceTree = "<group>"; };
 		80BB2DE31DFFAC81003544AB /* OwlAttack2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OwlAttack2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BB2DE61DFFAC81003544AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80BB2DE81DFFAC81003544AB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		80BB2DEA1DFFAC81003544AB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		80BB2DEC1DFFAC81003544AB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		80BB2DEE1DFFAC81003544AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		80BB2DF11DFFAC81003544AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +58,11 @@
 		80BB2E081DFFAC81003544AB /* OwlAttack2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OwlAttack2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BB2E0C1DFFAC81003544AB /* OwlAttack2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwlAttack2UITests.swift; sourceTree = "<group>"; };
 		80BB2E0E1DFFAC81003544AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80BB2E1A1DFFAF99003544AB /* OwlSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwlSlot.swift; sourceTree = "<group>"; };
+		80BB2E1C1E008C4A003544AB /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		80BB2E201E00B2C1003544AB /* screech.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = screech.wav; sourceTree = "<group>"; };
+		80BB2E281E00D5BA003544AB /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainMenuScene.swift; path = ../MainMenuScene.swift; sourceTree = "<group>"; };
+		80BB2E2C1E00DD98003544AB /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +113,15 @@
 		80BB2DE51DFFAC81003544AB /* OwlAttack2 */ = {
 			isa = PBXGroup;
 			children = (
+				80BB2E1E1E00A257003544AB /* sounds */,
 				80BB2DE61DFFAC81003544AB /* AppDelegate.swift */,
 				80BB2DE81DFFAC81003544AB /* GameScene.sks */,
-				80BB2DEA1DFFAC81003544AB /* Actions.sks */,
 				80BB2DEC1DFFAC81003544AB /* GameScene.swift */,
+				80BB2E281E00D5BA003544AB /* MainMenuScene.swift */,
+				8096F2961E03190000FF669A /* HelpScene.swift */,
+				80BB2E1A1DFFAF99003544AB /* OwlSlot.swift */,
+				80BB2E2C1E00DD98003544AB /* GameOverScene.swift */,
+				80BB2E1C1E008C4A003544AB /* Utils.swift */,
 				80BB2DEE1DFFAC81003544AB /* GameViewController.swift */,
 				80BB2DF01DFFAC81003544AB /* Main.storyboard */,
 				80BB2DF31DFFAC81003544AB /* Assets.xcassets */,
@@ -132,6 +147,14 @@
 				80BB2E0E1DFFAC81003544AB /* Info.plist */,
 			);
 			path = OwlAttack2UITests;
+			sourceTree = "<group>";
+		};
+		80BB2E1E1E00A257003544AB /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				80BB2E201E00B2C1003544AB /* screech.wav */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jason La";
 				TargetAttributes = {
 					80BB2DE21DFFAC81003544AB = {
@@ -247,8 +270,8 @@
 				80BB2DF21DFFAC81003544AB /* Main.storyboard in Resources */,
 				80BB2DE91DFFAC81003544AB /* GameScene.sks in Resources */,
 				80BB2DF41DFFAC81003544AB /* Assets.xcassets in Resources */,
+				80BB2E211E00B2C1003544AB /* screech.wav in Resources */,
 				80BB2DF71DFFAC81003544AB /* LaunchScreen.storyboard in Resources */,
-				80BB2DEB1DFFAC81003544AB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80BB2E1D1E008C4A003544AB /* Utils.swift in Sources */,
+				8096F2971E03190000FF669A /* HelpScene.swift in Sources */,
+				80BB2E1B1DFFAF99003544AB /* OwlSlot.swift in Sources */,
+				80BB2E2D1E00DD98003544AB /* GameOverScene.swift in Sources */,
 				80BB2DED1DFFAC81003544AB /* GameScene.swift in Sources */,
 				80BB2DEF1DFFAC81003544AB /* GameViewController.swift in Sources */,
+				80BB2E291E00D5BA003544AB /* MainMenuScene.swift in Sources */,
 				80BB2DE71DFFAC81003544AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +376,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -398,6 +427,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -429,10 +459,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3C88TTWHMV;
 				INFOPLIST_FILE = OwlAttack2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -442,10 +474,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3C88TTWHMV;
 				INFOPLIST_FILE = OwlAttack2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jasonla.OwlAttack2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -526,6 +560,7 @@
 				80BB2E131DFFAC81003544AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80BB2E141DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +569,7 @@
 				80BB2E161DFFAC81003544AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80BB2E171DFFAC81003544AB /* Build configuration list for PBXNativeTarget "OwlAttack2UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +578,7 @@
 				80BB2E191DFFAC81003544AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
